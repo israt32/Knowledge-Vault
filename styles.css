@@ -32,9 +32,6 @@
 
 
 
-
-
-
 /* main styles */
 
 nav{
@@ -63,8 +60,8 @@ nav .menu a{
   background-size: cover;
 }
 
-#banner .banner-container{
-  max-width: 770px;
+#banner .banner-container{ 
+   max-width: 770px;
   margin: 0 auto;
   text-align: center;
   padding: 115px 0 180px 0;
@@ -116,4 +113,62 @@ nav .menu a{
   background-color: transparent;
 
   cursor: pointer;
+}
+
+
+
+#notes{
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+#notes h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+  padding-top: 44px;
+}
+#notes p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+#notes .note-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#notes .note-card{
+  max-width: 322px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#notes .note-box .icon{
+ width: 60px;
+ height: 60px;
+ background-color: #F95555;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 46px auto 16px;
+
+}
+
+#notes .note-box h2{
+  font-weight: 600;
+  font-size: 24px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#notes .note-box p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
 }
