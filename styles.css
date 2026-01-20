@@ -30,6 +30,20 @@
   cursor: pointer;
 }
 
+.title{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.subtitle{
+ font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
 
 
 /* main styles */
@@ -84,6 +98,7 @@ nav .menu a{
   line-height: 84px;
  color: white;
  margin: 16px 0;
+ text-transform: capitalize;
 }
 .banner-container .green{
   color: #30B868;  
@@ -123,18 +138,11 @@ nav .menu a{
 }
 
 #notes h1{
-  font-size: 48px;
-  font-weight: 700;
-  color: #001931;
-  margin-bottom: 16px;
+  
   padding-top: 44px;
 }
-#notes p{
-  font-size: 16px;
-  line-height: 20px;
-  color: #627382;
-  margin-bottom: 44px;
-}
+
+
 
 #notes .note-box{
   display: flex;
@@ -166,9 +174,41 @@ nav .menu a{
   font-size: 24px;
   color: #001931;
   margin-bottom: 16px;
+  text-transform: capitalize;
 }
 #notes .note-box p{
   font-size: 16px;
   line-height: 20px;
   color: #627382;
 }
+
+#brain .brain-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0 ;
+  gap: 60px;
+}
+
+#brain .brain-container img{
+  max-width: 600px;
+}
+
+#brain .brain-container .brain-info h3{
+  font-size: 16px;
+  line-height: 20px;
+  color: #30B868;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+#brain .brain-info .idea-bullets li{
+ list-style: none;
+ color: #001931 ;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
