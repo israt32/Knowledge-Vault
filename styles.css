@@ -28,10 +28,6 @@
   border-radius: 4px;
   background-color: #469165;
   cursor: pointer;
-
-
-
-
   transition: background-color 0.25s ease;
 
 }
@@ -88,7 +84,7 @@ nav .menu a{
 }
 
 #banner{
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-size: cover;
 }
 
