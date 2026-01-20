@@ -250,3 +250,65 @@ nav .menu a{
  background-color: #627382;
  border-radius: 100%;
 }
+
+footer{
+  background-color: #001931;
+}
+
+footer .footer-section{
+padding: 120px 0 30px;
+
+}
+
+footer .footer-section .footer-container{
+display: flex;
+justify-content: space-between;
+}
+
+footer .footer-section img{
+  max-width: 140px;
+}
+
+footer .footer-section .social-links p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+footer .social-links{
+  margin-right: 60px;
+}
+
+footer .social-icons{
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+
+}
+
+footer .social-icons .social-icon{
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+footer .footer-section hr{
+ height: 2px;
+  background-color: #2e4256;
+  border: none;
+  margin-top: 80px;
+}
+
+footer .footer-section .copy-write{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 30px;
+}
