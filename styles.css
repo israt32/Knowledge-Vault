@@ -212,3 +212,41 @@ nav .menu a{
   margin-bottom: 16px;
 }
 
+#early-access .early-access-container{
+  margin-bottom: 120px;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+#early-access .early-access-container h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+#early-access .early-access-container p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  width: 600px;
+  margin: 0 auto 24px;
+}
+
+#early-access .early-access-container .bottom-line{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-top: 16px;
+}
+
+.dot{
+ width: 5px;
+ height: 5px;
+ background-color: #627382;
+ border-radius: 100%;
+}
