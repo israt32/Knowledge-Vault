@@ -84,7 +84,7 @@ nav .menu a{
 }
 
 #banner{
-  background-image: url("../assets/hero-bg.png");
+  background-image: url('./assets/hero-bg.png');
   background-size: cover;
 }
 
